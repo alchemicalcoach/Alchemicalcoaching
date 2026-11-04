@@ -1,10 +1,13 @@
 ALCHEMICAL COACHING WEBSITE
 
-Cloudflare Pages upload:
-1. Open Cloudflare Dashboard > Workers & Pages > Create > Pages.
-2. Choose Direct Upload / Upload assets.
-3. Upload this ZIP. The index.html file is at the ZIP root.
+This folder contains the website homepage (index.html).
 
-The site includes Home, Services, Testimonials, and Contact sections; the About section is intentionally omitted. The two supplied testimonials are included under Mikkel and Alex. Styling uses cream, plum, gold, and darker teal accents and is responsive for mobile and desktop.
+To publish with your existing GitHub + Cloudflare Pages project:
+1. Extract this ZIP on your computer.
+2. Open your GitHub repository in a browser.
+3. Choose Add file > Upload files.
+4. Drag index.html into the upload area (or choose it).
+5. Scroll down and click Commit changes.
+6. Cloudflare Pages should automatically deploy the update.
 
-The hero mountain photograph is loaded from Unsplash, so the deployed page needs an internet connection to display that background image.
+The mountain hero photo is loaded from Unsplash over the internet, so the page needs an internet connection to display that photo.
